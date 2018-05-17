@@ -29,7 +29,7 @@ den = Room("Den", 'garage', 'shop', 'backyard', 'deck',
 shop = Room("Shop", 'den', 'garage', 'deck', 'backyard',
             "You are in the one entry way small shop")
 backyard = Room("Backyard", 'deck', 'shop', 'den', 'garage',
-            "You are in the Backyard with 2 big dogs locked in a cage")
+                "You are in the Backyard with 2 big dogs locked in a cage")
 deck = Room("Deck", 'backyard', 'den', 'closet 1', 'bedroom2',
             "You are on the deck near the swimming pool")
 closet1 = Room("Closet 1", 'bedroom 2', 'closet 2', 'bedroom 3', 'master bedroom',

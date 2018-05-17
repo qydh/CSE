@@ -7,7 +7,7 @@ class Character(object):
         self.items = []
 
     def attack(self, target):
-        target.health -= 1
+        target.health -= 5
         print("%s deals 1 damage" % self.name)
 
     def interact(self, item):
